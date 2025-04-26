@@ -11,8 +11,7 @@ public class Main {
         System.out.println("Hypotenuse : " + Math.hypot(a,b));
         c = Math.hypot(a,b);
         System.out.println("Third side : " + c);
-        System.out.println("Triangle perimeter is : " + (a + b + c));
-        System.out.println("Triangle area is : " + ((a+b+c)/2));
+        System.out.println("Triangle perimeter is : " + 2 * ((a+b+c)/2));
     }
 }
 
