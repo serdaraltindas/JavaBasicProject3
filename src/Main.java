@@ -3,12 +3,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double a,b;
+        double a,b,c,perimeter;
         System.out.print("Please enter the first side : ");
         a = scanner.nextDouble();
         System.out.print("Please enter the second side : ");
         b = scanner.nextDouble();
         System.out.println("Hypotenuse : " + Math.hypot(a,b));
+        c = Math.hypot(a,b);
+        System.out.println("Third side : " + c);
+        System.out.println("Triangle perimeter is : " + (a + b + c));
+        System.out.println("Triangle area is : " + ((a+b+c)/2));
     }
 }
 
